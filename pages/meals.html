@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Delicious Eats</title>
+    <link rel="stylesheet" href="../css/style.css"> <!-- Adjust path to your CSS folder if needed -->
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body>
+
+  <!-- TOP NOTIFICATION BAR  -->
+  <div class="w-full bg-[#112244] text-white text-[11px] py-2 px-4 sm:px-6 lg:px-8 text-center font-medium tracking-wider uppercase">
+    Hosting an event? Explore our premium bespoke catering services today. <a href="./contact.html" class="underline text-amber-400 ml-1 hover:text-white transition-colors">Book Now</a>
+  </div>
+
+  <!-- top header  -->
+  <header class="sticky top-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center relative">
+      
+      <!-- Brand Logo  -->
+      <div class="flex items-center space-x-3">
+        <div class="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center text-white font-black shadow-xs">D <span class="text-[#d30000] transition-colors group-hover:text-slate-700">E</span></div>
+        <a href="" class="text-lg  font-black">  Delicious <span class="text-[#d30000] transition-colors group-hover:text-slate-700">Eats</span>
+          </a>
+        </div>
+      <!-- CSS Native Drawer Trigger Box -->
+      <input type="checkbox" id="mobile-nav-toggle" class="peer hidden" />
+      
+      <label for="mobile-nav-toggle" class="md:hidden flex flex-col gap-1.5 cursor-pointer z-50 p-2 border border-slate-200 rounded-lg">
+        <span class="w-5 h-0.5 bg-slate-800 transition-all duration-300"></span>
+        <span class="w-5 h-0.5 bg-slate-800 transition-all duration-300"></span>
+        <span class="w-5 h-0.5 bg-slate-800 transition-all duration-300"></span>
+      </label>
+      
+      <!-- Dynamic Responsive Navigation Panel -->
+      <nav class="absolute md:relative top-full left-0 w-full md:w-auto bg-white md:bg-transparent px-6 py-8 md:p-0 flex flex-col md:flex-row items-center space-y-5 md:space-y-0 md:space-x-8 text-xs font-bold uppercase tracking-widest text-slate-700 max-h-0 md:max-h-none overflow-hidden opacity-0 md:opacity-100 transition-all duration-300 peer-checked:max-h-[450px] peer-checked:opacity-100 shadow-xl md:shadow-none border-t border-slate-100 md:border-t-0">
+        <a href="./index.html" class="hover:text-[#d30000] transition-colors">home</a>
+        <a href="./about.html" class="hover:text-[#d30000] transition-colors">Our Story</a>
+        <a href="./contact.html" class="hover:text-[#d30000] transition-colors">Contact</a>
+        <a href="./service.html" class="hover:text-[#d30000] transition-colors">service</a>
+      </nav>
+    </div>
+  </header>
+
+  
+<!-- Menu Hero / Introduction Section -->
+<section class="menu-hero" style="background-color: #92a4b4; padding: 60px 5%; text-align: center; color: #0d233a;">
+  <span class="badge" style="background-color: #fff5f5; color: #ff0000; padding: 6px 16px; border-radius: 20px; font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">Our Offerings</span>
+  <h1 style="font-size: 48px; font-family: serif; margin: 20px 0 10px 0;">The Active Menu</h1>
+  <p style="max-width: 600px; margin: 0 auto; color: #1e293b; font-size: 16px; line-height: 1.6;">Experience the rich heritage of authentic Nigerian cuisine mixed with exceptional flavors crafted just for your table.</p>
+</section>
+
+<!-- Menu Section Content -->
+<main class="menu-container" style="max-width: 1200px; margin: 0 auto; padding: 60px 20px; font-family: sans-serif;">
+  
+  <!-- CATEGORY 1: RICE DISHES -->
+  <section class="menu-category" style="margin-bottom: 60px;">
+      <h2 style="font-family: serif; font-size: 32px; color: #0d233a; border-bottom: 2px solid #ff0000; padding-bottom: 10px; margin-bottom: 30px;">Rice Dishes</h2>
+      <div class="menu-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+          
+          <!-- Item 1 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/jollof rice.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Smoky Jollof Rice</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦4,500</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Classic party-style smoky Jollof rice served with fried plantain (Dodo).</p>
+                  <span style="background: #fff0f6; color: #d6336c; font-size: 11px; padding: 4px 8px; border-radius: 4px; font-weight: bold;">CROWD FAVORITE</span>
+                  <button>Book</button>             
+                </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/ofada rice.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Ofada Rice & Sauce</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦6,000</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Local unpolished rice paired with spicy, bleached-palm-oil Ayamase sauce containing assorted meats.</p>
+                  <span style="background: #fff5f5; color: #ff0000; font-size: 11px; padding: 4px 8px; border-radius: 4px; font-weight: bold;">SPICY</span>
+              </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/native fried rice.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Native Fried Rice</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦4,800</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Rice stir-fried with palm oil, iru (locust beans), scent leaves, prawns, and dried fish.</p>
+              </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/Gourmet Fried Rice.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Gourmet Fried Rice</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦4,500</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Delicately seasoned rice cooked with fresh liver chunks, sweet corn, carrots, and green peas.</p>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+  <!-- CATEGORY 2: SOUPS & SWALLOWS -->
+  <section class="menu-category" style="margin-bottom: 60px;">
+      <h2 style="font-family: serif; font-size: 32px; color: #0d233a; border-bottom: 2px solid #ff0000; padding-bottom: 10px; margin-bottom: 30px;">Soups & Swallows</h2>
+      <div class="menu-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+          
+          <!-- Item 5 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+               <img src="../images/efo riro .jpg" alt="" class="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Efo Riro</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦5,500</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Rich Yoruba spinach stew cooked with palm oil, tatashe, shambo, stockfish, and ponmo. Includes 1 swallow.</p>
+                  <span style="background: #f1f5f9; color: #475569; font-size: 11px; padding: 4px 8px; border-radius: 4px; font-weight: bold;">CHEF'S CHOICE</span>
+              </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/pounded yam & egusi.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Egusi Soup</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦5,000</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Melon seed soup cooked with bitter leaf or uziza, rich proteins, and local spices. Includes 1 swallow.</p>
+              </div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/afang soup.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Afang Soup</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦6,500</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">A luxurious southern delicacy made from shredded afang leaves, waterleaves, periwinkles, and sea snails. Includes 1 swallow.</p>
+              </div>
+          </div>
+
+          <!-- Item 8 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/oha soup.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Oha Soup</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦5,800</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Traditional Eastern soup thickened with cocoyam paste and seasoned with fresh Oha leaves and ogiri. Includes 1 swallow.</p>
+              </div>
+          </div>
+
+          <!-- Item 9 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/banga soup.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Banga Soup</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦6,000</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Palm nut concentrate extract soup infused with Delta banga stick spices, fresh catfish, and oburunbebe stick. Includes 1 swallow.</p>
+              </div>
+          </div>
+
+          <!-- Item 10 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/fisherman soup.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Fisherman Soup</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦8,500</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Rivers state luxury broth loaded with fresh crabs, prawns, calamari, catfish, and periwinkles. Includes 1 swallow.</p>
+                  <span style="background: #e0f2fe; color: #0369a1; font-size: 11px; padding: 4px 8px; border-radius: 4px; font-weight: bold;">PREMIUM</span>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+  <!-- CATEGORY 3: GRILLS, PROTEINS & SIDES -->
+  <section class="menu-category" style="margin-bottom: 60px;">
+      <h2 style="font-family: serif; font-size: 32px; color: #0d233a; border-bottom: 2px solid #ff0000; padding-bottom: 10px; margin-bottom: 30px;">Grills, Proteins & Sides</h2>
+      <div class="menu-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+          
+          <!-- Item 11 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                 <img src="../images/beef suya platter.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Beef Suya Platter</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦4,000</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Thinly sliced grilled beef rubbed in spicy northern yaji seasoning, served with raw cabbage and onions.</p>
+                  <span style="background: #fff5f5; color: #ff0000; font-size: 11px; padding: 4px 8px; border-radius: 4px; font-weight: bold;">NIGHTTIME FAVORITE</span>
+              </div>
+          </div>
+
+          <!-- Item 12 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/Asun (Spicy Goat Meat).jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Asun (Spicy Goat Meat)</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦5,000</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Delectable bite-sized pieces of fire-grilled goat meat tossed generously in crushed habanero pepper and onions.</p>
+                  <span style="background: #fff5f5; color: #ff0000; font-size: 11px; padding: 4px 8px; border-radius: 4px; font-weight: bold;">EXTREME SPICE</span>
+              </div>
+          </div>
+
+          <!-- Item 13 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/Nkwobi .jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Nkwobi</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦5,500</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Traditional Igbo appetizer made of tender cow foot mixed in a rich, spicy palm oil paste garnished with utazi leaves.</p>
+              </div>
+          </div>
+
+          <!-- Item 14 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/isiewu .jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Isiewu</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦7,500</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Spiced goat head cooked and served in a traditional wooden mortar, covered in rich savory local sauce.</p>
+              </div>
+          </div>
+
+          <!-- Item 15 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/ewa aganyin.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Ewa Aganyin & Bread</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦3,000</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Buttery mashed honey beans served with extremely dark, spicy caramelized pepper sauce and soft Agege bread.</p>
+              </div>
+          </div>
+
+          <!-- Item 16 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/Gizododo.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Gizdodo</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦3,800</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">A sweet and savory medley of diced peppered chicken gizzards and fried sweet plantains.</p>
+              </div>
+          </div>
+
+          <!-- Item 17 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/fried yam.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Yam Fries & Pepper Sauce</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦2,800</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Crispy golden fried yam sticks served alongside a rich sauce containing fried tomatoes and local peppers.</p>
+              </div>
+          </div>
+
+          <!-- Item 18 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/abacha.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Abacha (African Salad)</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦3,500</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Cassava flakes infused with palm oil, ugba, garden eggs, stockfish, and kanda slices.</p>
+              </div>
+          </div>
+
+          <!-- Item 19 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/cat fish pepper soup.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Catfish Pepper Soup</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦6,000</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Popularly known as "Point & Kill," this light aromatic spicy soup features fresh catfish chunks simmered with native herbs.</p>
+              </div>
+          </div>
+
+          <!-- Item 20 -->
+          <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+              <div style="padding: 20px;">
+                <img src="../images/moi moi.jpg" alt="">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                      <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Moin Moin Elemi Meji</h3>
+                      <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦2,500</span>
+                  </div>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Steamed blended bean pudding loaded with boiled eggs and flaked fish fillings wrapped in local leaves.</p>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+</main>
+
+    <!-- Menu Hero / Introduction Section -->
+    <section class="menu-hero" style="background-color: #92a4b4; padding: 60px 5%; text-align: center; color: #0d233a;">
+        <img src="../images/Drinks & Extras.jpg" alt="">
+        <span class="badge" style="background-color: #fff5f5; color: #ff0000; padding: 6px 16px; border-radius: 20px; font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">Refresh & Indulge</span>
+        <h1 style="font-size: 48px; font-family: serif; margin: 20px 0 10px 0;">Drinks & Extras</h1>
+        <p style="max-width: 600px; margin: 0 auto; color: #1e293b; font-size: 16px; line-height: 1.6;">Carefully curated beverages, signature local drinks, fine aged wines, and sweet treats to complement your meal.</p>
+    </section>
+
+    <!-- Menu Section Content -->
+    <main class="menu-container" style="max-width: 1200px; margin: 0 auto; padding: 60px 20px; font-family: sans-serif;">
+        
+        <!-- CATEGORY 4: TRADITIONAL DRINKS & MOCKTAILS -->
+        <section class="menu-category" style="margin-bottom: 60px;">
+            <h2 style="font-family: serif; font-size: 32px; color: #0d233a; border-bottom: 2px solid #ff0000; padding-bottom: 10px; margin-bottom: 30px;">Beverages & Soft Drinks</h2>
+            <div class="menu-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+                
+                <!-- Drink 1 -->
+                <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+                    <div style="padding: 20px;">
+                        <img src="../images/zobo drink.jpg" alt="">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                            <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Chilled Zobo Drink</h3>
+                            <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦1,500</span>
+                        </div>
+                        <p style="color: #666; font-size: 14px; margin-bottom: 15px;">House-brewed hibiscus flower extract infused with ginger, sweet pineapple chunks, and cloves.</p>
+                        <span style="background: #e6fcf5; color: #0ca678; font-size: 11px; padding: 4px 8px; border-radius: 4px; font-weight: bold;">100% NATURAL</span>
+                    </div>
+                </div>
+
+                <!-- Drink 2 -->
+                <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+                    <div style="padding: 20px;">
+                        <img src="../images/fresh chapman.jpg" alt="">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                            <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Fresh Chapman</h3>
+                            <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦2,500</span>
+                        </div>
+                        <p style="color: #666; font-size: 14px; margin-bottom: 15px;">The ultimate Nigerian mocktail. A refreshing blend of Fanta, Sprite, Angostura bitters, and fresh cucumber.</p>
+                        <span style="background: #fff0f6; color: #d6336c; font-size: 11px; padding: 4px 8px; border-radius: 4px; font-weight: bold;">SIGNATURE</span>
+                    </div>
+                </div>
+
+                <!-- Drink 3 -->
+                <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+                    <div style="padding: 20px;">
+                        <img src="../images/palm wine.jpg" alt="">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                            <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Creamy Palm Wine (Sweet)</h3>
+                            <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦2,000</span>
+                        </div>
+                        <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Freshly tapped, chilled sweet local palm wine served traditionally in a custom calabash cup.</p>
+                    </div>
+                </div>
+
+                <!-- Drink 4 -->
+                <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+                    <div style="padding: 20px;">
+                        <img src="../images/Soft Drinks (Canned).jpg" alt="">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                            <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Soft Drinks (Canned)</h3>
+                            <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦800</span>
+                        </div>
+                        <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Your choice of Coke, Sprite, Fanta, or Malt served over ice cubes with a fresh lemon slice.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CATEGORY 5: WINES & CHAMPAGNES -->
+        <section class="menu-category" style="margin-bottom: 60px;">
+            <h2 style="font-family: serif; font-size: 32px; color: #0d233a; border-bottom: 2px solid #ff0000; padding-bottom: 10px; margin-bottom: 30px;">Premium Wines & Spirits</h2>
+            <div class="menu-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+                
+                <!-- Wine 1 -->
+                <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+                    <div style="padding: 20px;">
+                        <img src="../images/Carlo Rossi (Red).jpg" alt="">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                            <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Carlo Rossi (Red)</h3>
+                            <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦15,000</span>
+                        </div>
+                        <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Smooth, medium-bodied California red wine. Pairs excellently with Beef Suya or Asun.</p>
+                    </div>
+                </div>
+
+                <!-- Wine 2 -->
+                <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+                    <div style="padding: 20px;">
+                        <img src="../images/4th Street Sweet White.jpg" alt="">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                            <h3 style="margin: 0; color: #0d233a; font-size: 18px;">4th Street Sweet White</h3>
+                            <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦12,000</span>
+                        </div>
+                        <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Fresh, naturally sweet white wine sporting playful fruity notes. Perfect alongside seafood or fisherman soup.</p>
+                    </div>
+                </div>
+
+                <!-- Wine 3 -->
+                <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+                    <div style="padding: 20px;">
+                        <img src="../images/Moët & Chandon Imperial.jpg" alt="">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                            <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Moët & Chandon Imperial</h3>
+                            <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦85,000</span>
+                        </div>
+                        <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Premium French Brut champagne featuring a vibrant intensity of green apple and citrus elements.</p>
+                        <span style="background: #e0f2fe; color: #0369a1; font-size: 11px; padding: 4px 8px; border-radius: 4px; font-weight: bold;">LUXURY</span>
+                    </div>
+                </div>
+
+                <!-- Wine 4 -->
+                <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+                    <div style="padding: 20px;">
+                        <img src="../images/Heineken Lager Beer.jpg" alt="">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                            <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Heineken Lager Beer</h3>
+                            <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦1,800</span>
+                        </div>
+                        <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Premium cold brewed bitter malt lager beer served directly in a chilled glass bottle.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CATEGORY 6: DESSERTS -->
+        <section class="menu-category">
+            <h2 style="font-family: serif; font-size: 32px; color: #0d233a; border-bottom: 2px solid #ff0000; padding-bottom: 10px; margin-bottom: 30px;">Desserts & Pastries</h2>
+            <div class="menu-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+                
+                <!-- Dessert 1 -->
+                <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+                    <div style="padding: 20px;">
+                        <img src="../images/Gourmet Puff Puff Grid.jpg" alt="">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                            <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Gourmet Puff Puff Grid</h3>
+                            <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦2,500</span>
+                        </div>
+                        <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Four sweet, pillowy soft fried dough balls drizzled with chocolate fudge sauce or powdered sugar dust.</p>
+                        <span style="background: #f1f5f9; color: #475569; font-size: 11px; padding: 4px 8px; border-radius: 4px; font-weight: bold;">SWEET TOOTH</span>
+                    </div>
+                </div>
+
+                <!-- Dessert 2 -->
+                <div class="menu-item" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff;">
+                    <div style="padding: 20px;">
+                        <img src="../images/Warm Meat Pie.jpg" alt="">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+                            <h3 style="margin: 0; color: #0d233a; font-size: 18px;">Warm Meat Pie</h3>
+                            <span style="color: #ff0000; font-weight: bold; font-size: 16px;">₦1,200</span>
+                        </div>
+                        <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Flaky, rich shortcrust pastry filled with minced beef meat pieces, diced Irish potatoes, and carrots.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Space -->
+    <footer style="background-color: #0d233a; color: #fff; text-align: center; padding: 40px 20px; font-family: sans-serif; margin-top: 60px;">
+        <p>&copy; 2026 Delicious Eats. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
